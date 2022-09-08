@@ -1,0 +1,25 @@
+
+public class A1 {
+	void sw() {
+		System.out.println("Switch case");
+		int a=1;
+		int b=2;
+		
+		switch(a) {
+		case 1:
+			System.out.println("case one");
+			break;
+		case 2:
+			System.out.println("case two");
+			break;
+		default:
+			System.out.println("default");
+	}
+	}
+		
+	public static void main(String args[]) {
+		A1 o = new A1();
+		o.sw();
+		
+	}
+}
